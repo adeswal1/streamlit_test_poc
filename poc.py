@@ -1,4 +1,5 @@
-print('hello world')
+import streamlit as st
 
-print('I am making changes to this ')
-
+st.title("Hello from GitHub!")
+st.write("SDLC pipeline is working!")
+st.success("Version 1.0 - dev branch")
